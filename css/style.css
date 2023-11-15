@@ -129,19 +129,17 @@ line-height: normal;
     padding-left: 50px;
 }
 .revievs {
-    background: url(../img/revievs-background.png), no-repeat;
+    background: url(../img/pains.png), url(../img/revievs-background.png);
     background-repeat: no-repeat;
     padding-top: 114px;
-    background-size: cover;
+    background-size: contain, cover;
     padding-bottom: 114px;
-    background-image: url(../img/pains.png);
-   
+    background-position: left bottom,auto;    
 }
 .revievs-text {
     color: #FFF;
 font-family: Roboto;
 font-size: 24px;
-
 font-weight: 400;
 line-height: normal;
 }
@@ -318,7 +316,7 @@ text-decoration-line: underline;
   .footer {
     background: #021635;
   }
-  .have-list {
+  /* .have-list {
     display: flex;
     flex-direction: column;
   }
@@ -326,5 +324,32 @@ text-decoration-line: underline;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-  }
-  
+  } */
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    /* background: #9B9B9B;
+    background-position: bottom;  */
+    
+}
+.right-text {
+    color: #FFF;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.logo-text {
+    color: #FFF;
+font-family: PT Serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.footer-line {
+    background: #9B9B9B;
+    width: 1110px;
+height: 1px;
+}
