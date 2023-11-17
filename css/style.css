@@ -143,6 +143,8 @@ font-family: Roboto;
 font-size: 24px;
 font-weight: 400;
 line-height: normal;
+margin-top: 49px;
+margin-bottom: 8px;
 }
 .revievs-date {
     color: #D8D8D8;
@@ -151,6 +153,7 @@ line-height: normal;
    
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 47px;
 }
 .revievs-name {
     color: #FFF;
@@ -249,6 +252,7 @@ padding-bottom: 29px;
     background: url(../img/order-backround.png),  no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 21px;
   }
   .input-country {
     border-radius: 50px;
@@ -271,6 +275,7 @@ font-size: 48px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin-bottom: 33px;
   }
   .order-button {
     color: #FFF;
