@@ -132,9 +132,10 @@ line-height: normal;
     background: url(../img/pains.png), url(../img/revievs-background.png);
     background-repeat: no-repeat;
     padding-top: 114px;
-    background-size: contain, cover;
+    background-size: 226px 380px , cover;
     padding-bottom: 114px;
-    background-position: left bottom,auto;    
+    /* background-position: -114px, auto; */
+    background-position: left bottom;
 }
 .revievs-text {
     color: #FFF;
