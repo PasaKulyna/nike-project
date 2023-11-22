@@ -118,7 +118,8 @@ line-height: normal;
 .quality-list {
     display: flex;
     justify-content: center;
-    gap: 170px;
+    margin-left: -100px;
+    margin-right: -70px;
 }
 .quality-container {
     outline: solid #8E32C6;
@@ -127,6 +128,24 @@ line-height: normal;
     padding-top: 25px;
     padding-right: 50px;
     padding-left: 50px;
+}
+.quality-item:not(:last-child)::after {
+    width: 1px;
+    height: 346px;
+    background: #FFF;
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.quality-item {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 345px;
 }
 .revievs {
     background: url(../img/pains.png), url(../img/revievs-background.png);
@@ -309,6 +328,7 @@ font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin-bottom: 10px;
   }
   .colo-text {
     color: #FFF;
@@ -319,9 +339,11 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-decoration-line: underline;
+margin-bottom: 10px;
   }
   .footer {
     background: #021635;
+    padding-top: 45px;
   }
   /* .have-list {
     display: flex;
@@ -346,6 +368,8 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+width: 291px;
+margin-bottom: 7px;
 }
 .logo-text {
     color: #FFF;
@@ -360,3 +384,11 @@ line-height: normal;
     width: 1110px;
 height: 1px;
 }
+.footer-box-line {
+    display: flex;
+   justify-content: space-between;
+}
+.right-item-top {
+    margin-top: 24px;
+}
+
